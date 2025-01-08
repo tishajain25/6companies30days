@@ -16,7 +16,8 @@ k = 0
 ```
 ### Sample Output 1
 ```
-2```
+2
+```
 
 ### Sample Input 2
 ```
@@ -26,6 +27,7 @@ k = 1
 ```
 4
 ```
+
 ### Solution
 ```java
 class Solution {
@@ -38,6 +40,7 @@ class Solution {
     // positions (before and after each `jump`) for  `down`. The maximum jump is
     // 29, as it satisfies the condition down = 2^jump - k <= jump + 1, with k
     // being the maximum value of 10^9.
+
     final int kMaxJump = 29;
     final int[][] comb = getComb(kMaxJump + 1, kMaxJump + 1);
     int ans = 0;
