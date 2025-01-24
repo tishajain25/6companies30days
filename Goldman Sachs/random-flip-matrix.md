@@ -11,10 +11,6 @@ reset(): Resets the matrix to all 0s.
 
 You need to optimize the algorithm to minimize the number of calls to the built-in random function and also optimize for time and space complexity.
 
-
-
-Return a list of all valid combinations.
-
 ### Sample Input 
 ```
 ["Solution", "flip", "flip", "flip", "reset", "flip"]
